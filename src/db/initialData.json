@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "exportedAt": "2026-09-30T20:50:00.000Z",
+  "users": [
+    {
+      "id": "usr_sofia",
+      "username": "sofia_lens",
+      "name": "Sofía Valenzuela",
+      "email": "sofia@lumix.media",
+      "password": "password123",
+      "avatar": "/src/assets/images/avatar_creator_female_1790826614793.jpg",
+      "bio": "Fotografía de naturaleza, cumbres andinas y luz crepuscular. Explorando el mundo con un lente 35mm. 🏔️✨",
+      "location": "Santiago & CDMX",
+      "website": "https://sofiavalenzuela.photography",
+      "followersCount": 4280,
+      "followingIds": ["usr_lucas", "usr_elena"],
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "isVerified": true
+    },
+    {
+      "id": "usr_lucas",
+      "username": "lucas_films",
+      "name": "Lucas Morales",
+      "email": "lucas@lumix.media",
+      "password": "password123",
+      "avatar": "/src/assets/images/avatar_creator_male_1790826627237.jpg",
+      "bio": "Cinematógrafo y piloto FPV. Capturando geometrías urbanas y la velocidad de la noche en 4K. 🎬🌆",
+      "location": "Barcelona, España",
+      "website": "https://lucasmorales.video",
+      "followersCount": 7890,
+      "followingIds": ["usr_sofia"],
+      "createdAt": "2026-02-01T14:30:00.000Z",
+      "isVerified": true
+    },
+    {
+      "id": "usr_elena",
+      "username": "elena_portrait",
+      "name": "Elena Navarro",
+      "email": "elena@lumix.media",
+      "password": "password123",
+      "avatar": "/src/assets/images/photo_portrait_editorial_1790826604138.jpg",
+      "bio": "Retratos editoriales, textura y color analógico. Directora visual en Madrid Estudio. 🎞️🎨",
+      "location": "Madrid, España",
+      "website": "https://elenanavarro.art",
+      "followersCount": 3120,
+      "followingIds": ["usr_sofia", "usr_lucas"],
+      "createdAt": "2026-02-20T08:15:00.000Z",
+      "isVerified": true
+    }
+  ],
+  "posts": [
+    {
+      "id": "post_1",
+      "userId": "usr_sofia",
+      "userName": "Sofía Valenzuela",
+      "userUsername": "sofia_lens",
+      "userAvatar": "/src/assets/images/avatar_creator_female_1790826614793.jpg",
+      "mediaType": "photo",
+      "mediaUrl": "/src/assets/images/hero_cinema_landscape_1790826577462.jpg",
+      "aspectRatio": "16:9",
+      "filter": "cinematic",
+      "caption": "Amanecer sobre el valle turquesa. Esperé 4 horas a que las nubes bajas dejaran pasar este primer rayo de sol. La paciencia siempre recompensa. 🏔️🌅",
+      "tags": ["paisaje", "amanecer", "naturaleza", "montañas", "cinematografia"],
+      "location": "Parque Nacional Patagonia",
+      "cameraDetails": "Sony A7R V · FE 24-70mm f/2.8 GM II · f/8, 1/250s, ISO 100",
+      "likesCount": 342,
+      "likedBy": ["usr_lucas", "usr_elena"],
+      "commentsCount": 3,
+      "createdAt": "2026-09-29T07:24:00.000Z"
+    },
+    {
+      "id": "post_2",
+      "userId": "usr_lucas",
+      "userName": "Lucas Morales",
+      "userUsername": "lucas_films",
+      "userAvatar": "/src/assets/images/avatar_creator_male_1790826627237.jpg",
+      "mediaType": "photo",
+      "mediaUrl": "/src/assets/images/photo_urban_architecture_1790826592050.jpg",
+      "aspectRatio": "4:5",
+      "filter": "dramatic",
+      "caption": "Curvas y hormigón en perfecta armonía. La luz del mediodía proyecta sombras que transforman el museo en una escultura viviente. 🏛️📐",
+      "tags": ["arquitectura", "urbano", "minimalismo", "diseño", "tokyo"],
+      "location": "Tokyo National Art Center",
+      "cameraDetails": "Leica M11 · Summicron 35mm f/2 · f/5.6, 1/500s, ISO 64",
+      "likesCount": 518,
+      "likedBy": ["usr_sofia"],
+      "commentsCount": 2,
+      "createdAt": "2026-09-29T16:45:00.000Z"
+    },
+    {
+      "id": "post_3",
+      "userId": "usr_elena",
+      "userName": "Elena Navarro",
+      "userUsername": "elena_portrait",
+      "userAvatar": "/src/assets/images/photo_portrait_editorial_1790826604138.jpg",
+      "mediaType": "photo",
+      "mediaUrl": "/src/assets/images/photo_portrait_editorial_1790826604138.jpg",
+      "aspectRatio": "4:5",
+      "filter": "vintage",
+      "caption": "Sesión de estudio: tonos cálidos y mirada penetrante. Jugando con iluminación natural lateral difusa y estilismo monocromático. ✨👗",
+      "tags": ["retrato", "editorial", "moda", "estudio", "luznatural"],
+      "location": "Estudio Gran Vía, Madrid",
+      "cameraDetails": "Fujifilm GFX 100 II · GF 110mm f/2 · f/2.8, 1/160s, ISO 125",
+      "likesCount": 289,
+      "likedBy": ["usr_sofia", "usr_lucas"],
+      "commentsCount": 1,
+      "createdAt": "2026-09-30T11:10:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c_1",
+      "postId": "post_1",
+      "userId": "usr_lucas",
+      "userName": "Lucas Morales",
+      "userUsername": "lucas_films",
+      "userAvatar": "/src/assets/images/avatar_creator_male_1790826627237.jpg",
+      "text": "¡Increíble rango dinámico Sofía! Esa neblina sobre el lago parece de una pintura.",
+      "createdAt": "2026-09-29T08:00:00.000Z"
+    },
+    {
+      "id": "c_2",
+      "postId": "post_1",
+      "userId": "usr_elena",
+      "userName": "Elena Navarro",
+      "userUsername": "elena_portrait",
+      "userAvatar": "/src/assets/images/photo_portrait_editorial_1790826604138.jpg",
+      "text": "La paleta de colores de este amanecer es pura magia.",
+      "createdAt": "2026-09-29T09:12:00.000Z"
+    },
+    {
+      "id": "c_3",
+      "postId": "post_2",
+      "userId": "usr_sofia",
+      "userName": "Sofía Valenzuela",
+      "userUsername": "sofia_lens",
+      "userAvatar": "/src/assets/images/avatar_creator_female_1790826614793.jpg",
+      "text": "Esa simetría es un espectáculo, Lucas. Muy buen ojo para las líneas de fuga.",
+      "createdAt": "2026-09-29T17:20:00.000Z"
+    },
+    {
+      "id": "c_4",
+      "postId": "post_3",
+      "userId": "usr_lucas",
+      "userName": "Lucas Morales",
+      "userUsername": "lucas_films",
+      "userAvatar": "/src/assets/images/avatar_creator_male_1790826627237.jpg",
+      "text": "El tratamiento del grano y el tono de piel es impecable Elena.",
+      "createdAt": "2026-09-30T12:05:00.000Z"
+    }
+  ],
+  "savedPostIdsByUser": {
+    "usr_sofia": ["post_2"],
+    "usr_lucas": ["post_1", "post_3"]
+  }
+}

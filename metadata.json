@@ -1,0 +1,6 @@
+{
+  "name": "Lumix Media - Red Social de Fotos y Videos",
+  "description": "Plataforma web completa para publicar fotos y videos con cuentas de usuario, autenticación, base de datos local y lista para publicar en GitHub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
