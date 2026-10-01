@@ -68,13 +68,16 @@ git push -u origin main
 
 ### Paso 3: Activar GitHub Pages (Despliegue Gratuito en la Nube)
 
-El proyecto ya incluye el flujo automatizado en `.github/workflows/deploy.yml`:
+El proyecto ya incluye el flujo automatizado corregido y optimizado en `.github/workflows/deploy.yml`:
 
 1. En tu repositorio de GitHub, entra a la pestaña **Settings** (Configuración).
 2. En la barra lateral izquierda, selecciona **Pages**.
 3. En **Build and deployment > Source**, cambia la opción a **GitHub Actions**.
-4. ¡Listo! En 1 o 2 minutos tu red social estará publicada y accesible en:
+4. En **Settings > Actions > General > Workflow permissions**, asegúrate de que esté habilitada la opción *"Read and write permissions"*.
+5. ¡Listo! En 1 o 2 minutos tu red social estará publicada y accesible en:
    `https://TU_USUARIO.github.io/lumix-media/`
+
+> **Nota técnica**: El flujo de trabajo utiliza `npm install` con `package-lock.json` generado sin conflictos de dependencias peer y `base: './'` en `vite.config.ts` para garantizar que todas las rutas relativas de imágenes, scripts y estilos funcionen sin pantallas en blanco ni errores 404 en cualquier subdominio o subcarpeta de GitHub Pages.
 
 ---
 

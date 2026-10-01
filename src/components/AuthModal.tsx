@@ -31,7 +31,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
   const [username, setUsername] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [bio, setBio] = useState<string>('');
-  const [avatar, setAvatar] = useState<string>('/src/assets/images/avatar_creator_female_1790826614793.jpg');
+  const [avatar, setAvatar] = useState<string>('./images/avatar_creator_female_1790826614793.jpg');
 
   if (!isOpen) return null;
 
@@ -83,7 +83,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
         username: username.trim().toLowerCase().replace(/[^a-z0-9_.]/g, ''),
         email: email.trim().toLowerCase(),
         password,
-        avatar: avatar || '/src/assets/images/avatar_creator_female_1790826614793.jpg',
+        avatar: avatar || './images/avatar_creator_female_1790826614793.jpg',
         bio: bio.trim() || 'Apasionado por la fotografía y el video visual.',
       });
 
